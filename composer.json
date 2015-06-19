@@ -1,0 +1,35 @@
+{
+  "name": "ajbdev/struct-models",
+  "description": "Build your model system on top of php-struct",
+  "type": "library",
+  "keywords": [
+    "orm", "model", "entity"
+  ],
+  "license": "BSD-2-Clause",
+  "authors": [
+    {
+      "name": "Andy Baird",
+      "email": "andybaird@gmail.com",
+      "role": "lead"
+    }
+  ],
+  "require": {
+    "php": ">=7"
+  },
+  "autoload": {
+    "psr-4": {
+      "StructModel": "src/"
+    }
+  },
+
+  "require": {
+    "php": ">=7",
+    "ajbdev/php-struct": "dev-master",
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url":  "https://github.com/ajbdev/php-struct"
+    }
+  ]
+}
